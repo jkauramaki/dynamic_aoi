@@ -9,6 +9,12 @@ Figure 1 A) Dynamic AOIs depicted in different colours, quantified for each fram
 
 Tested with Matlab R2020a & R2023b under Windows 11. Usage: clone or download repository, run `example_singleframe.m` to test with the provided example frame, or alternatively run `example_video.m` to read an example input video and write the output (with AOIs and landmarks ovarlaid) to mp4 video file as well. To modify to work with your own stimuli, first run OpenFace on your stimulus file, load up resulting .csv file by passing it to `generate_dynaoi.m` (see code and examples for syntax).
 
+## Citation
+
+The full conference paper is available [here](https://doi.org/10.1007/978-3-032-28819-6_12), text mode citation below:
+
+Kauramäki, J., Huttunen, K. (2026). Focus is Not just on the Eyes – Constructing Dynamic Areas of Interest for Eye-Tracking. In: Särestöniemi, M., Singh, D., Jarva, E., Reponen, J. (eds) Digital Health and Wireless Solutions: Integrating AI, LLMs and Multimodal Health Data for Next-Generation Decision Support. NCDHWS 2026. Communications in Computer and Information Science, vol 3010. Springer, Cham. https://doi.org/10.1007/978-3-032-28819-6_12
+
 ## References
 - <a name="baltrusaitis-et-al"></a>Baltrusaitis, T., Zadeh, A., Lim, Y. C., & Morency, L.-P. (2018). OpenFace 2.0: Facial Behavior Analysis Toolkit. 2018 13th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2018), 59–66. https://doi.org/10.1109/FG.2018.00019
 - <a name="hessels-et-al"></a>Hessels, R. S., Kemner, C., van den Boomen, C., & Hooge, I. T. C. (2016). The area-of-interest problem in eyetracking research: A noise-robust solution for face and sparse stimuli. Behavior Research Methods, 48(4), 1694–1712. https://doi.org/10.3758/s13428-015-0676-y
